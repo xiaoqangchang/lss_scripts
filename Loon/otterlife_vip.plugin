@@ -7,7 +7,7 @@
 #!date=2025-10-23
 
 [Script]
-http-response ^https?:\/\/otter-api\.codefuture\.top\/v\d+\/user\/current script-path=https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/otterlife.js?token=GHSAT0AAAAAADTE2WHJ6IL43JA3UF7HC5DA2LGNXWA, requires-body=true, timeout=10, tag=OtterLife解锁
+http-response ^https?:\/\/otter-api\.codefuture\.top\/v\d+\/user\/current script-path=https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/otterlife.js, requires-body=true, timeout=10, tag=OtterLife解锁
 
 [MITM]
 hostname = otter-api.codefuture.top
