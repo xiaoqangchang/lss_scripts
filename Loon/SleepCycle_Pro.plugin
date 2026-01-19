@@ -1,0 +1,12 @@
+#!name=SleepCycle_Pro
+#!desc=解锁永久高级版
+#!author=https://t.me/GieGie777
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/53/48/725348df-4f45-6e1c-9d6e-08694dcd1ee8/Placeholder.mill/400x400bb-75.webp
+#!category=解锁会员
+#!tags=解锁会员
+
+[Script]
+SleepCycle_Pro = type=http-response,pattern=^https?:\/\/ch\.sleepcycle\.com\/api\/v1\/subscription/get$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ChangXaoqiang/script/refs/heads/main/js/sleepcycle.js, requires-body=true, timeout=10, tag=Noted解锁会员
+
+[MITM]
+hostname=ch.sleepcycle.com
