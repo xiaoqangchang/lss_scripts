@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/ChangXaoqiang/script/refs/heads/main/Stash/xxyh.js
+^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php url script-response-body https://raw.githubusercontent.com/cxq93/script/refs/heads/main/Stash/xxyh.js
 
 [mitm] 
 

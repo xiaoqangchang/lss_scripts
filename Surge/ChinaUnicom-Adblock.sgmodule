@@ -10,13 +10,13 @@
 DOMAIN,m1.ad.10010.com,REJECT
 
 [Script]
-^https:\/\/m\.client\.10010\.com\/clientIndex\/v1\/api\/navHome requires-body=1, script-path=https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-NavHome
+^https:\/\/m\.client\.10010\.com\/clientIndex\/v1\/api\/navHome requires-body=1, script-path=https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-NavHome
 
-^https:\/\/m\.client\.10010\.com\/clientIndex\/homefusion\/fuInter requires-body=1, script-path=https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-FuInter
+^https:\/\/m\.client\.10010\.com\/clientIndex\/homefusion\/fuInter requires-body=1, script-path=https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-FuInter
 
-^https:\/\/m\.client\.10010\.com\/search_service\/tyfbSearch\/searchDiscoverListExpress requires-body=1, script-path=https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-SearchDiscover
+^https:\/\/m\.client\.10010\.com\/search_service\/tyfbSearch\/searchDiscoverListExpress requires-body=1, script-path=https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-SearchDiscover
 
-^https:\/\/m\.client\.10010\.com\/search_service\/search\/searchScrollWord requires-body=1, script-path=https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-SearchScroll
+^https:\/\/m\.client\.10010\.com\/search_service\/search\/searchScrollWord requires-body=1, script-path=https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/unicom-adblock.js, tag=ChinaUnicom-SearchScroll
 
 [MITM]
 hostname = m.client.10010.com

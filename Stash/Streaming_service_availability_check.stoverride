@@ -36,16 +36,16 @@ tiles:
 
 script-providers:
   ChatGPT-Web-Check:
-    url: https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/chatgpt-web.js
+    url: https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/chatgpt-web.js
     interval: 86400
   ChatGPT-App-Check:
-    url: https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/chatgpt-app.js
+    url: https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/chatgpt-app.js
     interval: 86400
   YouTube-Check:
-    url: https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/youtube.js
+    url: https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/youtube.js
     interval: 86400
   Netflix-Check:
-    url: https://raw.githubusercontent.com/ChangXaoqiang/lss_scripts/refs/heads/main/js/netflix.js
+    url: https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/netflix.js
     interval: 86400
 
 # 使用说明：

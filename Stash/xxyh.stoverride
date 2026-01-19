@@ -15,5 +15,5 @@ http:
       timeout: 10
 script-providers:
   xiaoxiongyouhao:
-    url: https://raw.githubusercontent.com/ChangXaoqiang/script/refs/heads/main/Stash/xxyh.js
+    url: https://raw.githubusercontent.com/cxq93/script/refs/heads/main/Stash/xxyh.js
     interval: 86400
