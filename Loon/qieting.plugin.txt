@@ -1,0 +1,17 @@
+#!name=且听 𝕏
+#!desc=对 且听 深度学习探索;
+#!author=https://t.me/GieGie777
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/23/82/59238296-5c6b-b826-09ee-226119ab4c63/Placeholder.mill/400x400bb.webp
+#!date = 2025-12-31 00:00:00
+#!category=解锁会员
+#!tags=解锁会员
+
+
+[Rewrite]
+^https?:\/\/api\.erduoshuku\.cn\/api\/pay\/free-membership reject
+
+[Script]
+http-response ^https?:\/\/api\.erduoshuku\.cn\/api\/(pay\/subscription\/(info|expiry-popup)|account\/user-profile) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/qieting.js, requires-body=true, timeout=60, tag=解锁会员
+
+[Mitm]
+hostname = *.erduoshuku.cn
