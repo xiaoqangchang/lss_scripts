@@ -6,7 +6,7 @@
 #!tags=解锁会员
 
 [Script]
-SleepCycle_Pro = type=http-response,pattern=^https?:\/\/ch\.sleepcycle\.com\/api\/v1\/subscription/get$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ChangXaoqiang/script/refs/heads/main/js/sleepcycle.js, requires-body=true, timeout=10, tag=Noted解锁会员
+http-response ^https?:\/\/ch\.sleepcycle\.com\/api\/v1\/subscription/get$ script-path=https://raw.githubusercontent.com/ChangXaoqiang/script/refs/heads/main/js/sleepcycle.js, requires-body=true, timeout=10, tag=Noted解锁会员
 
 [MITM]
 hostname=ch.sleepcycle.com
