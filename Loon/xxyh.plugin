@@ -1,0 +1,12 @@
+#!name=小熊油耗
+#!desc=小熊油耗解锁
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/fd/ce/dbfdceb6-4da5-fa7b-a40d-23951cc33852/Placeholder.mill/400x400bb-75.webp
+#!homepage=https://yfamilys.com
+#!author=89996462
+[Script]
+http-response ^http[s]?:\/\/www.xiaoxiongyouhao.com\/api\/vip\/index.php requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xiaoxiongyouhao.js
+
+
+
+[MITM]
+hostname = www.xiaoxiongyouhao.com
