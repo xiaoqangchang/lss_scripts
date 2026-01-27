@@ -1,6 +1,7 @@
-# Loon
-# 阿基米德FM去广告
-#让FM回归纯净调频。
+#!name = 阿基米德FM
+#!desc = 阿基米德FM去广告,让FM回归纯净调频。
+#!author = @ZenMoFiShi
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/39/26/d53926aa-7a66-86ee-4287-fcd2c3b9ca30/AppIcon-0-0-1x_U007emarketing-0-4-0-0-85-220.png/400x400ia-75.webp
 
 [Rewrite]
 # 移除阿基米德FM开屏广告
