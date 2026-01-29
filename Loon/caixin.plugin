@@ -1,9 +1,9 @@
 #!name = 财新去广告
 #!desc = 移除财新APP内的广告和推广内容
-#!author = Assistant
+#!author = Claude
 #!homepage = https://github.com
-#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Caixin.png
-#!date = 2024-01-10
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/4e/ad/624ead29-a41a-1de3-551f-06aa893e8d32/Placeholder.mill/400x400bb-75.webp
+#!date = 2026-01-29 19:59:46
 
 [Rule]
 DOMAIN, dolphin.caixin.com, REJECT
