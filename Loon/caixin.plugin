@@ -1,0 +1,33 @@
+#!name = 财新去广告
+#!desc = 移除财新APP内的广告和推广内容
+#!author = Assistant
+#!homepage = https://github.com
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Caixin.png
+#!date = 2024-01-10
+
+[Rule]
+DOMAIN, dolphin.caixin.com, REJECT
+DOMAIN, gg.caixin.com, REJECT
+
+[Rewrite]
+# 拦截股票数据推广
+^https:\/\/cxdata\.caixin\.com\/api\/dataplus\/stkData\/list reject-dict
+
+# 拦截首页推送广告
+^https:\/\/entities\.caixin\.com\/api\/public\/push\/appIndex\?target=index reject-dict
+
+# 拦截搜索关键词推荐
+^https:\/\/gateway\.caixin\.com\/api\/app-api\/search\/getkeyword reject-dict
+
+# 拦截小程序信息
+^https:\/\/gateway\.caixin\.com\/api\/app-api\/caixinminiapp\/appinfo reject-dict
+
+# 拦截热门推荐文章
+^https:\/\/gateway\.caixin\.com\/api\/app-api\/articlesHotRecommend\/getHotRecommendArticles reject-dict
+
+# 拦截AI问答推广
+^https:\/\/www\.caixin\.com\/ai\/question.+ reject-dict
+
+[MITM]
+hostname = cxdata.caixin.com, entities.caixin.com, gateway.caixin.com, www.caixin.com
+
