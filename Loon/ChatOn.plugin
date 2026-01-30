@@ -1,0 +1,11 @@
+#!name = ChatOn_Pro
+#!desc = ChatOn Al - Chat Bot Assistant
+#!tag = 解锁会员
+#!category = 解锁会员
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/83/54/4083548e-5644-d532-b0c3-947e462bbaf2/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/400x400ia-75.webp
+
+[MITM]
+hostname = billing.chaton.ai
+
+[rewrite_local]
+billing.chaton.ai/v1/subscriptions url script-response-body https://raw.githubusercontent.com/cxq93/lss_scripts/refs/heads/main/js/ChatOn.js
